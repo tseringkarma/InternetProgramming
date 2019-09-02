@@ -1,0 +1,50 @@
+.subdiv ul
+{
+	width: auto;
+	float: right;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: transparent;
+	padding: 0;
+	
+
+
+}
+.subdiv ul li
+{
+	display: inline-block;
+}
+.subdiv ul li a:hover
+{
+	background-color: black;
+
+}
+ ul li.active a
+{
+background-color: black;
+}
+
+.subdiv li a{
+	display: block;
+	text-decoration: none;
+	padding: 15px 20px;
+	color:white;
+	text-align: center;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(backgroundimg.png);
+	background-size: cover;
+	background-position: center;
+	font-size: 20px;
+	height:95vh;
+}
+.pop 
+{
+	margin-top: 50%;
+	margin-left: 50%;
+	
+}
